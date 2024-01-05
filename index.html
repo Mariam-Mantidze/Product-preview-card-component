@@ -9,10 +9,18 @@
   </head>
   <body>
     <div class="card">
-      <img
-        class="main-img"
-        src="./images/image-product-desktop.jpg"
-        alt="img of channel product" />
+      <picture class="main-img">
+        <source
+          media="(min-width: 769px)"
+          srcset="./images/image-product-desktop.jpg" />
+        <source
+          media="(max-width: 768px)"
+          srcset="./images/image-product-mobile.jpg" />
+        <img
+          src="./images/image-product-desktop.jpg"
+          alt="Descriptive alt text" />
+      </picture>
+
       <div class="text-wrapper">
         <h1>PERFUME</h1>
         <h2>Gabrielle Essence Eau De Parfum</h2>

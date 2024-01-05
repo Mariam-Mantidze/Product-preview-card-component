@@ -20,7 +20,7 @@ body {
   border-radius: 10px;
   background: var(--Pure-White, #fff);
 }
-.card .main-img {
+.card .main-img img {
   width: auto;
   height: 450px;
   flex-shrink: 0;
@@ -110,4 +110,48 @@ button p {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #1a4032;
+}
+@media (max-width: 768px) {
+  body {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+    padding: 28px 16px 28px 16px;
+  }
+  .card {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 343px;
+    height: 611px;
+    flex-shrink: 0;
+  }
+  .card .main-img img {
+    width: 343.697px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .text-wrapper {
+    padding: 24px;
+  }
+  .text-wrapper h2 {
+    width: 295px;
+  }
+  .description {
+    width: 295px;
+  }
+  button {
+    width: 295px;
+    height: 48px;
+    flex-shrink: 0;
+  }
 }
