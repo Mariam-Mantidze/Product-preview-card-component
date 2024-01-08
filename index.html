@@ -4,22 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Preview Card Component</title>
+    <link rel="icon" href="./images/favicon-32x32.png" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="card">
-      <picture class="main-img">
-        <source
-          media="(min-width: 769px)"
-          srcset="./images/image-product-desktop.jpg" />
-        <source
-          media="(max-width: 768px)"
-          srcset="./images/image-product-mobile.jpg" />
-        <img
-          src="./images/image-product-desktop.jpg"
-          alt="Descriptive alt text" />
-      </picture>
+      <div class="main-img"></div>
 
       <div class="text-wrapper">
         <h1>PERFUME</h1>
@@ -33,7 +24,7 @@
           <span>$169.99</span>
         </div>
         <button>
-          <img src="./images/icon-cart.svg" alt="icon of cart" />
+          <img src="./images/icon-cart.svg" alt="cart icon" />
           <p>Add to Cart</p>
         </button>
       </div>
