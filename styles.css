@@ -19,7 +19,7 @@ body {
   overflow: hidden;
 }
 .main-img {
-  background-image: url(/images/image-product-mobile.jpg);
+  background-image: url(./images/image-product-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -130,7 +130,7 @@ button:hover {
     width: 300px;
   }
   .main-img {
-    background-image: url(/images/image-product-desktop.jpg);
+    background-image: url(./images/image-product-desktop.jpg);
     width: 300px;
     height: 450px;
     flex-shrink: 0;
